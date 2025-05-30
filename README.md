@@ -121,6 +121,7 @@ For example, if someone buys 0.345 BTC and shortly after someone sells 0.345 BTC
 3. Estimate Fees and Losses
 Calculate the difference between the open and close prices, adjust for estimated fees, and infer how much the trader likely lost. Use this information to predict their next likely entry size and price.
 4.Exploit Recurring Patterns
+
 If a similar trade appears soon after—same size, similar direction—you reverse trade against it, essentially betting that this “gambler” is likely to lose again.
     But this approach still faces several significant challenges:
 1. How to accurately calculate the size of the opening position?
