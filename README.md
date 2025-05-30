@@ -128,6 +128,7 @@ If a similar trade appears soon after—same size, similar direction—you rever
 2. Without knowing the trader’s original leverage, how can I estimate their capital?
 3. Retail traders don’t always go all-in.
 4. Market makers can trade with themselves using “fake” or wash orders.
+   
     I’m choosing to disclose this key factor because I believe the strategy is no longer viable—or even if it could still make money, I no longer want to profit this way. I want to help build a better world, not one where brilliant minds are wasted on figuring out how to "harvest retail traders."
     As for the first issue, my initial approach was to create a fitting formula—one that could either predict the player’s opening size based on their account balance, or reverse-engineer their balance based on observed positions.
     But eventually, I realized: I don’t need to fit everypossible scenario.
