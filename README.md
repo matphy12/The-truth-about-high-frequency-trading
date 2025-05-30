@@ -49,11 +49,6 @@ Personal quant trading open-source strategy and notes
 
 尽管策略可能仍有未尽之处，但我倾向于认为它已被主流做市商所针对，而非仍藏有尚未开发的巨大价值。可能做市商已经进行了大量干扰性自成交行为，他们已经针对已知策略进行了针对性对策的制定，因此我放弃优化我的策略转向开源：既坚持了公平正义的初衷，又能展现自己的能力。
 
-后续将在该账号的文章列表以及多个海内外平台同步更新。
-
-https://github.com/matphy12
-​github.com/matphy12
---------------------------------------------------分割线------------------------------------------------------
 
 在我的量化策略中，核心是对“开仓公式”的识别与建模。下面简要介绍：
 
@@ -95,8 +90,7 @@ Through hands-on experimentation and backtesting, I found that while these strat
 In building this strategy, I invested significant time and energy. It showcases my skills in modeling, code implementation, and deep understanding of market microstructure. All core factors were derived through independent reasoning, with the foundational ideas dating back three years. Back then, I lacked tools and means to validate them. Now, with the help of ChatGPT and improved coding capabilities, I’ve been able to systematize them. I also tested some hypotheses through high-risk trading in the early stages—while it led to losses, it deepened my understanding. By making this journey public, I aim not only to document my own process, but also to attract collaborators or potential employers.
 3、Ethical Motivation:
 High-frequency trading, at its core, is a form of "micro-arbitrage" that often relies on the informational disadvantage of retail traders. I gradually realized this stands in direct conflict with my belief in long-term value investing. Through this act of transparency, I hope to spark broader discussion around financial efficiency and fairness—even if my influence is limited, I want to be a small spark for change. I intend to open source all strategy code and related insights, and publish them across multiple platforms for those interested in studying, building upon, or challenging the work.
-
-    My decision to walk away does not stem from the strategy’s failure, but from the realization that its success depends on the failure of others.
+  My decision to walk away does not stem from the strategy’s failure, but from the realization that its success depends on the failure of others.
 This is a fundamental logic I find difficult to accept. If market efficiency is built upon information asymmetry and systematic exploitation, then it deserves to be critically reexamined. High-frequency trading contradicts my understanding of fair and ethical markets. When a system rewards algorithmic domination over fundamental research, it is not "efficient"—it is imbalanced.
     In truth, we all know: it’s nearly impossible to win in a casino.The only way to profit is if someone more naive than you walks in—and you bet against them. But even then, the casino can choose to target the "skilled player" first, while letting the rest fatten up. If market incentives are misaligned, then even the smartest participants will eventually become prey.
     In reality, market makers possess a wealth of information that retail traders don’t—
