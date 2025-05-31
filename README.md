@@ -11,7 +11,7 @@ Personal quant trading open-source strategy and notes
 
 事实上，做市商拥有绝大多数散户不知道的信息：如某个订单流的订单，下单的交易者是否是API下单的字段。甚至可能存在做市商能够直接获取交易者的杠杆、止损位置等信息，因此高频交易虽然依靠技术，但其实盈利的本质还是来自于不公平竞争。
 
-总的而言，市场上曾存在一个强大的因子，少数拥有深度思考能力的人能够想到，但是可能这个时代该因子已经几乎失效。可能存在其他我不知道的因子，但是无论如何市场的游戏规则需要改变。我希望能以此为起点，引发更多对市场公平、交易结构、金融伦理的探讨。
+总的而言，市场上曾存在一个强大的因子，少数拥有深度思考能力并往此方向思考过的人能够想到，但是可能这个时代该因子已经几乎失效。可能存在其他我不知道的因子，但是无论如何市场的游戏规则需要改变。我希望能以此为起点，引发更多对市场公平、交易结构、金融伦理的探讨。
 
 该策略的启发来自于我个人在加密市场上的赌博，首先我们确认一个问题：赌徒在加密货币市场使用高倍杠杆后，上涨和下跌的最终概率会因为赌徒的开仓而变化吗？有人认为不会变化，大部分的赌徒只是因为手续费的磨损，以及大数定律的最终归零而亏损的。实则不然，即使赌场不来狙击你的仓位（比如赌徒杠杆做多，狙击你的仓位的意思就是反向做空，打压你的仓位，等你被迫爆仓卖出以后再以低价买回来把赌徒的钱赚走），通过市场结构的微观信息，高频量化交易者依旧能探测到赌徒的仓位。
 
@@ -96,8 +96,8 @@ This is a fundamental logic I find difficult to accept. If market efficiency is 
     In reality, market makers possess a wealth of information that retail traders don’t—
 such as whether an order was placed via API, or even potentially a trader’s leverage and stop-loss levels.
 While high-frequency trading appears to be a battle of algorithms, its profitability often stems from unfair informational advantages, not just technical prowess.
-    At one point, there may have existed a powerful signal—an edge discoverable only by those capable of deep thought.
-    But that edge has likely been eroded, absorbed, or countered by today’s dominant players.
+    In general, there was once a powerful factor in the market that was thought of by a few people who had the ability to think deeply and in this direction, but perhaps this factor has almost become ineffective in this era.
+    That edge has likely been eroded, absorbed, or countered by today’s dominant players.
 Other edges may still exist, but regardless, the rules of the game need to change.
     This open-source initiative is my way of starting a conversation—
 about fairness, about structural incentives, and about the ethics of modern markets.
