@@ -64,8 +64,21 @@
         Order new_order = existing_ordersyubei[existing_ordersyubei.size() - 2];
         // 线程安全地将新订单添加到 existing_orders 下面是我定义的安全添加函数
         safe_push_back(existing_orders, new_order, max_existing_orders, mtx_existing_orders);
+
+
+
+
+
+
+        
         构建高频量化策略的另一个关键，是准确识别交易者的实际开仓数量与背后的资金规模。虽然部分交易所公开了开仓计算公式，但由于其涉及较多隐藏参数与边界条件，理论公式未必与实战一致。因此，我尝试通过实证方法加以验证，并收集了大量真实下单数据，构造如下实验。为方便，这里展示我收集的10几条关于狗狗币的数据——简单写了个Python代码加以验证
         输入包含标记价格、最新价格、余额、杠杆、和最大可做多做空量的实验结果。
+
+
+
+
+
+        
         # 用于估算最大可做空数量的估算函数
         def estimate_max_short(mark_price, latest_price, balance, leverage, max_long, max_short):
         return int(balance * leverage / (1.001 * latest_price))
@@ -122,6 +135,12 @@ print(f"\n✅ 共预测正确: {correct_count} / {len(data)} 条")
 [17] 预测: 109734, 实际: 109559 -> ❌, 差距: 175,杠杆与本金32、1086.94635585
 
 ✅ 共预测正确: 5 / 18 条
+
+
+
+
+
+
 
 从实验结果看，该估算公式在部分场景下预测准确，尤其在小额账户或中低杠杆时表现较佳。然而当杠杆较高或余额增大后，预测误差迅速放大。在18组样本中，仅有5组完全命中（误差为0），部分样本误差较大，说明实际成交数量存在非线性边界或隐藏规则，可能与交易所的整数截断、滑点、风险缓释机制等有关。一开始我是想用拟合手段拟合的，使用了基于遗传算法的符号回归等方法，依旧拟合不出来，我想这是交易所的黑箱。
 
