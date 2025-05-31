@@ -1,4 +1,4 @@
-# matphy
+# The truth about high-frequency trading
 Personal quant trading open-source strategy and notes
 我决定开源我迄今为止构建的数字货币高频量化交易策略。虽花费了我大量时间构建，但随着我对市场机制与金融伦理的深入思考，我选择不再继续这条道路。接下来，我将陆续公开策略代码、建模思想与验证过程，供有志者学习、检视与质疑。原因有三：
 
